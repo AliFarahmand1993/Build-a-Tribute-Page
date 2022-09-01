@@ -9,3 +9,37 @@
     line-height: 1.5;
     font-size: 1rem;
   }
+  p {
+    display: block;
+    }
+
+    /* main section  start*/
+    #main {
+      align-items: center;
+      text-align: center;
+    }
+    /* header section start */
+    .header{
+    background-color: #eeeeee;
+    padding: 2rem;
+    margin-top:1rem 0;
+    }
+    .header p{
+      padding: 1rem;
+    }
+   /* header section end */
+
+    /* image style start */
+    #img-div{
+      background-color: #ffffff;
+    }
+    #image {
+    max-width:100%;
+    height:auto;
+    display: block;
+    margin: 0 auto;
+    }
+    #img-caption{
+      padding:1rem;
+    }
+     /* image style end */
