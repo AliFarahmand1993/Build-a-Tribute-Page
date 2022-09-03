@@ -1,45 +1,72 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  html,
-  body {
-    font-family: "Open Sans", sans-serif;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
-    font-size: 1rem;
-  }
-  p {
-    display: block;
-    }
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+p {
+  display: block;
+}
 
-    /* main section  start*/
-    #main {
-      align-items: center;
-      text-align: center;
-    }
-    /* header section start */
-    .header{
-    background-color: #eeeeee;
-    padding: 2rem;
-    margin-top:1rem 0;
-    }
-    .header p{
-      padding: 1rem;
-    }
-   /* header section end */
+/* main section  start*/
+#main {
+  align-items: center;
+  text-align: center;
+}
+/* header section start */
+.header {
+  background-color: #eeeeee;
+  padding: 2rem;
+  margin-top: 1rem 0;
+}
+.header p {
+  padding: 1rem;
+}
+/* header section end */
 
-    /* image style start */
-    #img-div{
-      background-color: #ffffff;
-    }
-    #image {
-    max-width:100%;
-    height:auto;
-    display: block;
-    margin: 0 auto;
-    }
-    #img-caption{
-      padding:1rem;
-    }
-     /* image style end */
+/* image style start */
+#img-div {
+  background-color: #ffffff;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#img-caption {
+  padding: 1rem;
+}
+/* image style end */
+
+/* main style start */
+section {
+  display: block;
+}
+
+h3 {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  line-height: 1.6rem;
+  margin: 1rem 0;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+/* main style end */
